@@ -1,20 +1,26 @@
 ========================================================================
-          C++/WinRT Assignment 3  Expression Manager (STACK)
+                C++/WinRT Assignment 3 Queue creator
 ========================================================================
 
-An expression manager built using stack that will convert a users expression
-from infix to postfix performing multiple checks to ensure correctness of output.
+This program allows the user to create a queue and perform various operations on it. 
+The user can add elements to the queue, remove and return the first element, 
+view the first element, check if the queue is empty,
+and determine the size of the queue.
 
-1.Run the program and wait for it to display a prompt.
-2.When prompted, enter an infix expression  +, –, *, /, %, {, }, (, ), [, ] 
-    are all allowed charcters.
-3.The program will perform a Balanced Parentheses Check on the expression.
-4.If the expression fails the check, the program will display a message to 
-    the user  indicating that the expression is invalid.
-5.If the expression passes the check, the program will convert the infix 
-    expression into a postfix expression and display it to the user including
-    the values entered.
-6.The program will then exit.
+How to use the program:
+
+1.Run the program.
+2.The program will display a menu with the following options:
+   
+   1-Add (rear)
+    2-Remove & Return (front)
+    3-View 1st value
+    4-Is Empty?
+    5-Size of Queue
+    6-Quit
+3.Enter the corresponding number for the operation you want to perform.
+4.Follow the prompts to add or remove elements from the queue or to view its status.
+5.To quit the program, select option 6.
 
 ========================================================================
 Lorrell Winfield 17 APR 2023
